@@ -13,6 +13,7 @@ if [[ $# -eq 0 ]] ; then
 fi
 
 # Install dependencies
+sudo apt-get update
 sudo apt-get install libudev-dev libusb-1.0
 sudo apt-get install -y gettext
 pip install -r requirements.txt
