@@ -17,5 +17,4 @@ sudo apt-get update
 sudo apt-get install libudev-dev libusb-1.0
 sudo apt-get install -y gettext
 pip install -r requirements.txt
-pip install circuitpython-build-tools Sphinx sphinx-rtd-theme
-pip install --force-reinstall pylint==1.9.2 black==19.10b0
+pip install circuitpython-build-tools
