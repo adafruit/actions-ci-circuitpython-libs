@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2019 Adafruit Industries
+
+SPDX-License-Identifier: MIT
+-->
+
 # Actions CI CircuitPython Init Script
 
 The purpose of this repo is to create a centrally managed dependency
