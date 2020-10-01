@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2020 Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
 V=0
 while getopts 'abf:v' flag; do
   case "${flag}" in
