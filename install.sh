@@ -22,6 +22,6 @@ sudo apt-get install libudev-dev libusb-1.0
 sudo apt-get install -y gettext
 pip install -r requirements.txt
 if test -f "optional_requirements.txt"; then
-    python3 -m pip install -r optional_requirements.txt
+    pip install -r optional_requirements.txt
 fi
 pip install circuitpython-build-tools
