@@ -20,5 +20,5 @@ fi
 sudo apt-get update
 sudo apt-get install libudev-dev libusb-1.0
 sudo apt-get install -y gettext
-pip install .
+pip install -r requirements.txt
 pip install circuitpython-build-tools
