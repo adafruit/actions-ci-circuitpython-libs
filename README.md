@@ -24,7 +24,7 @@ You can clone and checkout this repo in a GitHub Actions workflow file using
 
 ```yaml
 - name: Checkout tools repo
-  uses: actions/checkout@v2
+  uses: actions/checkout@v3
   with:
     repository: adafruit/actions-ci-circuitpython-libs
     path: actions-ci
