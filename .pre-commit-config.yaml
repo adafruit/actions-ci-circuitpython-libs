@@ -13,3 +13,13 @@ repos:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+-   repo: https://github.com/python/black
+    rev: 23.3.0
+    hooks:
+      - id: black
+-   repo: https://github.com/pycqa/pylint
+    rev: v2.17.4
+    hooks:
+      - id: pylint
+        name: pylint
+        types: [python]
