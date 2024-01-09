@@ -1,3 +1,5 @@
 # SPDX-FileCopyrightText: 2019 Adafruit Industries
 #
 # SPDX-License-Identifier: Unlicense
+
+pyyaml~=6.0
