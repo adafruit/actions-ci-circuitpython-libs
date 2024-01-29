@@ -21,4 +21,5 @@ jobs:
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
     - name: pre-install
       run: |
+        touch requirements.txt # Empty requirements expected by install.sh
         source actions-ci/install.sh
