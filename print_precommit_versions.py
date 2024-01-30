@@ -25,4 +25,4 @@ with open(".pre-commit-config.yaml", mode="r", encoding="utf-8") as yamlfile:
 
 print("Using the following pre-commit hook versions:")
 for repo in repos:
-    print(f' * {repo["repo"]} @ {repo["rev"]}')
+    print(f' * {repo["repo"]} @ {repo.get("rev")}')
