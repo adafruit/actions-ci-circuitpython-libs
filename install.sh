@@ -35,6 +35,9 @@ pip install -r requirements.txt
 if test -f "optional_requirements.txt"; then
     pip install -r optional_requirements.txt
 fi
+if test -f "docs/requirements.txt"; then
+    pip install -r docs/requirements.txt
+fi
 
 # Install build tool
 pip install circuitpython-build-tools
